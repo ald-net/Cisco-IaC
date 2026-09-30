@@ -1,0 +1,9 @@
+all:
+  children:
+    ios_switches:
+      hosts:
+        HRT-90322-SW3:
+          ansible_host: 10.10.4.232
+      vars:
+        ansible_connection: network_cli
+        ansible_network_os: cisco.ios
