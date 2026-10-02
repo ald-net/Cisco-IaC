@@ -6,5 +6,5 @@ all:
           ansible_host: 10.10.4.232
 vars:
   ansible_connection: ansible.netcommon.network_cli
-  ansible_network_os: cisco.ios
+  ansible_network_os: cisco.ios.ios
 
