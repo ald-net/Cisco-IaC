@@ -3,7 +3,7 @@
   hosts: HRT-90322-SW3
   gather_facts: false
   vars:
-    ansible_connection: network_cli
+    ansible_connection: ansible.netcommon.network_cli
     ansible_network_os: cisco.ios.ios
 
   tasks:
